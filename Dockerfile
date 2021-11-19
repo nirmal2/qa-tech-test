@@ -3,5 +3,3 @@ COPY . /tech-test
 WORKDIR /tech-test
 RUN yarn install
 ENTRYPOINT yarn start
-
-.
